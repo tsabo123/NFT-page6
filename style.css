@@ -79,6 +79,7 @@ width:  100%;
 padding: 16px 30px 16px 20px !important;
 align-items: center;
 gap: 12px;
+color: #858584!important;
 }
 
 .small {
@@ -121,6 +122,7 @@ text-align: center;
 white-space: nowrap;
 background: #FFF;
 border-style: none;
+
         
 }
       
@@ -295,12 +297,24 @@ line-height: 160%; /* 35.2px */
 
 }
 
-big{
+big {
   width: 800px !important;
   border-radius: 20px 20px 0px 0px !important;
   background-color:  #858584 !important;
-  color: #858584!important;
+  color: #858584 !important;
+  
 }
+::placeholder {
+  color: #858584!important;
+
+}
+input:focus {
+  box-shadow: none!important;
+  outline: none!important;
+}
+
+
+
 
 
 
